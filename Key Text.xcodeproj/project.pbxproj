@@ -14,6 +14,7 @@
 		B9CB98942BB5AF1F002FDE14 /* Key_TextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB98932BB5AF1F002FDE14 /* Key_TextTests.swift */; };
 		B9CB989E2BB5AF1F002FDE14 /* Key_TextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB989D2BB5AF1F002FDE14 /* Key_TextUITests.swift */; };
 		B9CB98A02BB5AF1F002FDE14 /* Key_TextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB989F2BB5AF1F002FDE14 /* Key_TextUITestsLaunchTests.swift */; };
+		B9CB98AD2BB5B75F002FDE14 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB98AC2BB5B75F002FDE14 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B9CB98992BB5AF1F002FDE14 /* Key TextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Key TextUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CB989D2BB5AF1F002FDE14 /* Key_TextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key_TextUITests.swift; sourceTree = "<group>"; };
 		B9CB989F2BB5AF1F002FDE14 /* Key_TextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key_TextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9CB98AC2BB5B75F002FDE14 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B9CB98812BB5AF1C002FDE14 /* Key_TextApp.swift */,
+				B9CB98AC2BB5B75F002FDE14 /* Helper.swift */,
 				B9CB98832BB5AF1C002FDE14 /* ContentView.swift */,
 				B9CB98852BB5AF1F002FDE14 /* Assets.xcassets */,
 				B9CB98872BB5AF1F002FDE14 /* Key_Text.entitlements */,
@@ -261,6 +264,7 @@
 			files = (
 				B9CB98842BB5AF1C002FDE14 /* ContentView.swift in Sources */,
 				B9CB98822BB5AF1C002FDE14 /* Key_TextApp.swift in Sources */,
+				B9CB98AD2BB5B75F002FDE14 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +424,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Key Text/Preview Content\"";
-				DEVELOPMENT_TEAM = VQUJ5G5Y9B;
+				DEVELOPMENT_TEAM = 6UZ67VYB8D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -458,10 +463,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Key Text/Preview Content\"";
-				DEVELOPMENT_TEAM = VQUJ5G5Y9B;
+				DEVELOPMENT_TEAM = 6UZ67VYB8D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

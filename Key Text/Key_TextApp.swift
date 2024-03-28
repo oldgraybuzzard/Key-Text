@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct Key_TextApp: App {
+struct TextExpanderApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+
